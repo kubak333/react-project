@@ -9,7 +9,7 @@ import App from './App'
 const el = document.getElementById('root');
 
 
-// 3) Tell reacto to take control of that element;
+// 3) Tell react to take control of that element;
 
 const root = ReactDOM.createRoot(el);
 

@@ -15,6 +15,6 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 
-// 5) Show the component on the screen
+// 5) Show the component on the screen...
 
 root.render(<App />);

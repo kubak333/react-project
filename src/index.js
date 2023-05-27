@@ -1,21 +1,13 @@
-// 1) Import the React and ReactDOM libraries
-
 import React from 'react';
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom/client';
 import App from './App';
+import searchImages from './api';
 
-// 2) Get a referencje to the div with ID root
+searchImages()
 
 const el = document.getElementById('root');
-
-// 3) Tell react to take control of that element;
-
 const root = ReactDOM.createRoot(el);
 
-// 4) Create a component
+root.render(<App/>)
 
 
-
-// 5) Show the component on the screen...
-
-root.render(<App />)

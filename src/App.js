@@ -1,21 +1,20 @@
 import { useState } from 'react';
-import SearchBar from './components/SearchBar';
-import ImageList from './components/ImageList';
-import searchImages from './api';
+import BookCreate from './components/BookCreate';
 
 function App() {
-    const [images, setImages] = useState([]);
+    const [books, setBooks] = useState([]);
 
-    const handleSubmit = async (term) => {
-        const result = await searchImages(term);
+    const createBook = (title) => {
+        console.log('Need to add book with title:', title);
+    };
 
-        setImages(result);
-    }
+    
 
-    return <div>
-        <SearchBar onSubmit={handleSubmit} />
-        <ImageList images={images}/>
-    </div>
+    return (<div> 
+        <BookCreate onCreate={createBook} />
+    </div>)
 }
 
 export default App;
+
+

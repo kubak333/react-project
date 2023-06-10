@@ -1,28 +1,12 @@
 {
   "books": [
     {
-      "title": "test",
-      "id": 1
-    },
-    {
-      "title": "dzieci z bulerbyn",
-      "id": 2
-    },
-    {
       "title": "proces",
       "id": 3
     },
     {
-      "title": "ksiazka",
-      "id": 4
-    },
-    {
       "title": "lolek",
       "id": 5
-    },
-    {
-      "title": "bolek",
-      "id": 6
     }
   ]
 }

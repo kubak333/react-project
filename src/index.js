@@ -11,4 +11,6 @@ root.render(
   <Provider>
     <App />
   </Provider>
+
+// provider określamy w kontekście
 );
